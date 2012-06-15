@@ -15,6 +15,15 @@
 		E05AC0D3151B6C9300AEDDBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05AC0D2151B6C9300AEDDBC /* AppDelegate.m */; };
 		E05AC0D6151B6C9300AEDDBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05AC0D5151B6C9300AEDDBC /* ViewController.m */; };
 		E05AC0D9151B6C9300AEDDBC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05AC0D7151B6C9300AEDDBC /* ViewController.xib */; };
+		E05AC0E2151B6D0700AEDDBC /* AnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05AC0E0151B6D0700AEDDBC /* AnimationsViewController.m */; };
+		E05AC0E3151B6D0700AEDDBC /* AnimationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05AC0E1151B6D0700AEDDBC /* AnimationsViewController.xib */; };
+		E05AC0E5151B718B00AEDDBC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AC0E4151B718B00AEDDBC /* QuartzCore.framework */; };
+		E05AC0E8151B740500AEDDBC /* logo-ipup.png in Resources */ = {isa = PBXBuildFile; fileRef = E05AC0E6151B740500AEDDBC /* logo-ipup.png */; };
+		E05AC0E9151B740500AEDDBC /* logo-ipup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E05AC0E7151B740500AEDDBC /* logo-ipup@2x.png */; };
+		E05AC0F0151B81ED00AEDDBC /* logo_ipup_carre.png in Resources */ = {isa = PBXBuildFile; fileRef = E05AC0EE151B81ED00AEDDBC /* logo_ipup_carre.png */; };
+		E05AC0F1151B81ED00AEDDBC /* logo_ipup_carre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E05AC0EF151B81ED00AEDDBC /* logo_ipup_carre@2x.png */; };
+		E05AC0F5151B81FE00AEDDBC /* LayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05AC0F3151B81FE00AEDDBC /* LayersViewController.m */; };
+		E05AC0F6151B81FE00AEDDBC /* LayersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05AC0F4151B81FE00AEDDBC /* LayersViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +31,26 @@
 		E05AC0C2151B6C9300AEDDBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E05AC0C4151B6C9300AEDDBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05AC0C6151B6C9300AEDDBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E05AC0CA151B6C9300AEDDBC /* Animations-Info.plist */ = {isa = PBXFileReference; path = "Animations-Info.plist"; sourceTree = "<group>"; };
+		E05AC0CA151B6C9300AEDDBC /* Animations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animations-Info.plist"; sourceTree = "<group>"; };
 		E05AC0CC151B6C9300AEDDBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05AC0CE151B6C9300AEDDBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E05AC0D0151B6C9300AEDDBC /* Animations-Prefix.pch */ = {isa = PBXFileReference; path = "Animations-Prefix.pch"; sourceTree = "<group>"; };
-		E05AC0D1151B6C9300AEDDBC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05AC0D0151B6C9300AEDDBC /* Animations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animations-Prefix.pch"; sourceTree = "<group>"; };
+		E05AC0D1151B6C9300AEDDBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E05AC0D2151B6C9300AEDDBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E05AC0D4151B6C9300AEDDBC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E05AC0D4151B6C9300AEDDBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E05AC0D5151B6C9300AEDDBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E05AC0D8151B6C9300AEDDBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E05AC0DF151B6D0700AEDDBC /* AnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsViewController.h; sourceTree = "<group>"; };
+		E05AC0E0151B6D0700AEDDBC /* AnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsViewController.m; sourceTree = "<group>"; };
+		E05AC0E1151B6D0700AEDDBC /* AnimationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationsViewController.xib; sourceTree = "<group>"; };
+		E05AC0E4151B718B00AEDDBC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E05AC0E6151B740500AEDDBC /* logo-ipup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-ipup.png"; sourceTree = "<group>"; };
+		E05AC0E7151B740500AEDDBC /* logo-ipup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-ipup@2x.png"; sourceTree = "<group>"; };
+		E05AC0EE151B81ED00AEDDBC /* logo_ipup_carre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ipup_carre.png; sourceTree = "<group>"; };
+		E05AC0EF151B81ED00AEDDBC /* logo_ipup_carre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_ipup_carre@2x.png"; sourceTree = "<group>"; };
+		E05AC0F2151B81FE00AEDDBC /* LayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayersViewController.h; sourceTree = "<group>"; };
+		E05AC0F3151B81FE00AEDDBC /* LayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayersViewController.m; sourceTree = "<group>"; };
+		E05AC0F4151B81FE00AEDDBC /* LayersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayersViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05AC0E5151B718B00AEDDBC /* QuartzCore.framework in Frameworks */,
 				E05AC0C3151B6C9300AEDDBC /* UIKit.framework in Frameworks */,
 				E05AC0C5151B6C9300AEDDBC /* Foundation.framework in Frameworks */,
 				E05AC0C7151B6C9300AEDDBC /* CoreGraphics.framework in Frameworks */,
@@ -70,6 +91,7 @@
 				E05AC0C2151B6C9300AEDDBC /* UIKit.framework */,
 				E05AC0C4151B6C9300AEDDBC /* Foundation.framework */,
 				E05AC0C6151B6C9300AEDDBC /* CoreGraphics.framework */,
+				E05AC0E4151B718B00AEDDBC /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +105,16 @@
 				E05AC0D5151B6C9300AEDDBC /* ViewController.m */,
 				E05AC0D7151B6C9300AEDDBC /* ViewController.xib */,
 				E05AC0C9151B6C9300AEDDBC /* Supporting Files */,
+				E05AC0DF151B6D0700AEDDBC /* AnimationsViewController.h */,
+				E05AC0E0151B6D0700AEDDBC /* AnimationsViewController.m */,
+				E05AC0E1151B6D0700AEDDBC /* AnimationsViewController.xib */,
+				E05AC0F2151B81FE00AEDDBC /* LayersViewController.h */,
+				E05AC0F3151B81FE00AEDDBC /* LayersViewController.m */,
+				E05AC0F4151B81FE00AEDDBC /* LayersViewController.xib */,
+				E05AC0E6151B740500AEDDBC /* logo-ipup.png */,
+				E05AC0E7151B740500AEDDBC /* logo-ipup@2x.png */,
+				E05AC0EE151B81ED00AEDDBC /* logo_ipup_carre.png */,
+				E05AC0EF151B81ED00AEDDBC /* logo_ipup_carre@2x.png */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -150,6 +182,12 @@
 			files = (
 				E05AC0CD151B6C9300AEDDBC /* InfoPlist.strings in Resources */,
 				E05AC0D9151B6C9300AEDDBC /* ViewController.xib in Resources */,
+				E05AC0E3151B6D0700AEDDBC /* AnimationsViewController.xib in Resources */,
+				E05AC0E8151B740500AEDDBC /* logo-ipup.png in Resources */,
+				E05AC0E9151B740500AEDDBC /* logo-ipup@2x.png in Resources */,
+				E05AC0F0151B81ED00AEDDBC /* logo_ipup_carre.png in Resources */,
+				E05AC0F1151B81ED00AEDDBC /* logo_ipup_carre@2x.png in Resources */,
+				E05AC0F6151B81FE00AEDDBC /* LayersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +201,8 @@
 				E05AC0CF151B6C9300AEDDBC /* main.m in Sources */,
 				E05AC0D3151B6C9300AEDDBC /* AppDelegate.m in Sources */,
 				E05AC0D6151B6C9300AEDDBC /* ViewController.m in Sources */,
+				E05AC0E2151B6D0700AEDDBC /* AnimationsViewController.m in Sources */,
+				E05AC0F5151B81FE00AEDDBC /* LayersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

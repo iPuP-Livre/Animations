@@ -3,11 +3,17 @@
 //  Animations
 //
 //  Created by Marian PAUL on 22/03/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 iPuP SARL. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class AnimationsViewController;
+@class LayersViewController;
 
+@interface ViewController : UIViewController
+{
+    AnimationsViewController *_animationsViewController;
+    LayersViewController *_layerViewController;
+}
 @end
